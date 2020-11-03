@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mariadb": "^2.5.1",
+    "require": "^2.4.20",
+    "rootpath": "^0.1.2"
+  },
+  "name": "word-cloud-nodeservice",
+  "description": "This is the intermediate service to help the angular code interact with the backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungeKatz/Word-Cloud-nodeService.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jungeKatz/Word-Cloud-nodeService/issues"
+  },
+  "homepage": "https://github.com/jungeKatz/Word-Cloud-nodeService#readme"
+}
