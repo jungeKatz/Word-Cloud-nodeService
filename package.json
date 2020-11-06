@@ -1,9 +1,14 @@
 {
   "dependencies": {
+    "bluebird": "^3.7.2",
     "cors": "^2.8.5",
     "esm": "^3.2.25",
     "express": "^4.17.1",
+    "got": "^11.8.0",
     "mariadb": "^2.5.1",
+    "needle": "^2.5.2",
+    "node-twitter-api": "^1.8.0",
+    "oauth-1.0a": "^2.2.6",
     "require": "^2.4.20",
     "rootpath": "^0.1.2"
   },
