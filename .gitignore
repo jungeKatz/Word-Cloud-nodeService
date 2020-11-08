@@ -1,2 +1,5 @@
 node_modules
 db_connections
+.env
+environments
+db_helpers

@@ -1,9 +1,15 @@
 {
   "dependencies": {
+    "bluebird": "^3.7.2",
     "cors": "^2.8.5",
+    "custom-env": "^2.0.1",
     "esm": "^3.2.25",
     "express": "^4.17.1",
+    "got": "^11.8.0",
     "mariadb": "^2.5.1",
+    "needle": "^2.5.2",
+    "node-twitter-api": "^1.8.0",
+    "oauth-1.0a": "^2.2.6",
     "require": "^2.4.20",
     "rootpath": "^0.1.2"
   },
@@ -11,7 +17,9 @@
   "description": "This is the intermediate service to help the angular code interact with the backend",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
