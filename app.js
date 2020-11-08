@@ -1,20 +1,22 @@
 const express = require('express');
 const app = express();
-var cors = require('cors');
-const port = 4000;
+const cors = require('cors');
+const port = 3010;
+const errorHandler = require('./_helpers/error.handler');
+const createConnection = require('./db_helpers/connection');
+
 
 app.use(cors());
 
-const myLogger = function (req, res, next) {
-  console.log('LOGGED');
-  next();
-};
-app.use(myLogger);
+app.use(createConnection);
+
+// * error Handler
+//app.use(errorHandler);
 
 app.post('/users/authenticate', (req, res) => {
   res.send({ username: 'test' });
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log(`Server running at http://localhost:${port}`);
 });
