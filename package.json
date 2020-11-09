@@ -14,7 +14,6 @@
     "nodemon": "^2.0.6",
     "oauth-1.0a": "^2.2.6",
     "passport-twitter": "^1.0.4",
-    "require": "^2.4.20",
     "rootpath": "^0.1.2"
   },
   "name": "word-cloud-nodeservice",
