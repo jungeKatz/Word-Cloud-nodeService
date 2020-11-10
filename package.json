@@ -13,8 +13,15 @@
     "node-twitter-api": "^1.8.0",
     "nodemon": "^2.0.6",
     "oauth-1.0a": "^2.2.6",
+    "passport": "^0.4.1",
     "passport-twitter": "^1.0.4",
-    "rootpath": "^0.1.2"
+    "rootpath": "^0.1.2",
+    "body-parser": "^1.19.0",
+    "connect-ensure-login": "^0.1.1",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.2",
+    "express-session": "^1.16.1",
+    "morgan": "^1.9.1"
   },
   "name": "word-cloud-nodeservice",
   "description": "This is the intermediate service to help the angular code interact with the backend",
